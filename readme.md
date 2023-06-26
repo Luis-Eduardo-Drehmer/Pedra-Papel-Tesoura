@@ -42,7 +42,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Live Site URL: []
+- Live Site URL: [https://luis-eduardo-drehmer.github.io/Pedra-Papel-Tesoura/]
 ## Meu processo
 
 ### Construção

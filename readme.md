@@ -47,24 +47,24 @@ Os usuários devem ser capazes de:
 
 ### Construção
 
-- HTML5 semântico
-- CSS desktop
-- CSS Mobile
-- JavaScript
+- HTML5 semântico;
+- CSS desktop;
+- CSS Mobile;
+- JavaScript;
 
 ### O que eu aprendi
 
 1. HTML:
-    - Reforcei meu conhecimento sobre html semântico  
+    - Reforcei meu conhecimento sobre html semântico;  
 2. JavaScript:
     - Aprendi a verificar, adicionar e remover classes dos elementos HTML;
     - Adicionar eventos aos elementos;
     - O uso do **forEach()** em uma lista;
-    - Trabalhar com ***setTimeout()*** e com ***Math.randim()***
+    - Trabalhar com ***setTimeout()*** e com ***Math.randim()***;
 
 ### Desenvolvimento contínuo
 
-Para os próximos projetos quero focar em melhorar e aprofundar meu conhecimento em JavaScrits
+Para os próximos projetos quero focar em melhorar e aprofundar meu conhecimento em JavaScript;
 
 
 ## Autor

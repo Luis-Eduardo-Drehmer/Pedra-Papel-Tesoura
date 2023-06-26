@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -19,24 +19,26 @@
 
 </head>
 
-<body>
+<body class="container ">
     <header class="titulo">
         <h1>Pedra, Papel, Tesoura</h1>
     </header>
     <div class="temas">
-        <i class="fas fa-sun"></i>
-        <i class="fas fa-moon"></i>
+        <div class="icon inativo"><i class="fas fa-sun"></i></div>
+        <div class="icon"><i class="fas fa-moon "></i></div>        
     </div>
-    <main class="">
+    <main class="jogo">
         <div class="jogador">
-            <div class="informacoes"></div>>
+            <div class="informacoes">
                 <p class="nome">Nome</p>
                 <p class="pontos">0</p>
             </div>
             <div class="escolhas">
-                <a href="#"><img src="src/image/Mao_Pedra.png" alt="Pedra"></a>
-                <a href="#"><img src="src/image/Mao_Papel.png" alt="Papel"></a>
-                <a href="#"><img src="src/image/Mao_Tesoura.png" alt="Tesoura"></a>
+                <ul>
+                    <li class="escolha"><img src="src/image/Mao_Pedra.png" alt="Pedra"></li>
+                    <li class="escolha"><img src="src/image/Mao_Papel.png" alt="Papel"></li>
+                    <li class="escolha"><img src="src/image/Mao_Tesoura.png" alt="Tesoura"></li>
+                </ul>
             </div>
         </div>
         <div class="vs">
@@ -48,9 +50,11 @@
                 <p class="pontos">0</p>
             </div>
             <div class="escolhas">
-                <a href="#"><img src="src/image/Mao_Pedra.png" alt="Pedra"></a>
-                <a href="#"><img src="src/image/Mao_Papel.png" alt="Papel"></a>
-                <a href="#"><img src="src/image/Mao_Tesoura.png" alt="Tesoura"></a>
+                <ul>
+                    <li><img src="src/image/Mao_Pedra.png" alt="Pedra"></li>
+                    <li><img src="src/image/Mao_Papel.png" alt="Papel"></li>
+                    <li><img src="src/image/Mao_Tesoura.png" alt="Tesoura"></li>
+                </ul>
             </div>
         </div>
     </main>
@@ -58,7 +62,7 @@
         <p>Bem vindo!!</p>
     </footer>
 
-    <script src="src/js/index.js"></script>
+   <script src="src/js/index.js"></script>
 </body>
 
 </html>

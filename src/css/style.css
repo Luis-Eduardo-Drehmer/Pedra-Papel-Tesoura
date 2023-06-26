@@ -1,0 +1,116 @@
+.container{
+    background-color: #303030;
+    position: relative;
+    margin: 10px;
+}
+.container.claro{
+    background-color: #fff;
+}
+.container .titulo{
+    text-align: center;
+    margin: 20px;
+}
+.container.claro .titulo{
+    color: #000;
+}
+.container .temas {
+    font-size: 30px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    cursor: pointer;
+}
+.container .temas .fa-sun{
+    color: rgb(225, 175, 0);
+}
+.container .temas .fa-moon{
+    color: #d2d2d2;
+}
+.container .temas .inativo{
+    display: none;
+}
+
+.container .jogo{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.container .jogo .jogador{      
+    display: flex;
+    flex-grow: 1; 
+    align-items: center ;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.container .jogo .jogador:first-child{
+    background-color:#e74c3c;
+}
+.container .jogo .jogador:last-child{
+    background-color:#3498db;
+}
+.container .jogo .jogador .informacoes{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;    
+}
+.container .jogo .jogador .informacoes .nome{
+    font-size: 20px;
+}
+.container .jogo .jogador .informacoes .pontos{
+    font-size: 30px;
+}
+.container .jogo .jogador:last-child .informacoes{
+    flex-direction: row-reverse;
+}
+.container .jogo .jogador .escolhas{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.container .jogo .jogador .escolhas ul{
+    display: flex;
+    justify-content: center;    
+}
+.container .jogo .jogador .escolhas ul li{
+    opacity: 1;
+    opacity: 0.3;    
+    margin: 0 20px;    
+}
+
+.container .jogo .jogador:first-child .escolhas ul li:hover{
+    opacity: 1;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.container .jogo .jogador .escolhas ul li.selecionado{
+    opacity: 1;
+    transform: scale(1.3);
+}
+.container .jogo .jogador .escolhas ul li img{
+    max-width: 65px;    
+    display: flex;
+}
+.container .jogo .vs{
+    width: 150px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;    
+}
+.container.claro .jogo .vs{
+    color: #000;
+}
+.container .mensagens{
+    background-color: #444;
+    padding: 20px;
+    margin: 20px 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;    
+}
+.container.claro .mensagens{
+    background-color: #86a8b6;
+    color: #000;
+}

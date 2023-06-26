@@ -19,16 +19,16 @@
 
 Os usuários devem ser capazes de:
 
-- Veja o layout ideal para a página, dependendo do tamanho da tela do dispositivo.
-- Recriar o jogo pedra, papel, tesoura.
-- O jogo consiste em dois jogadores, um sendo o usuário e outro o computador, onde terá 3 opções de jogadas.
+- Veja o layout ideal para a página, dependendo do tamanho da tela do dispositivo;
+- Recriar o jogo pedra, papel, tesoura;
+- O jogo consiste em dois jogadores, um sendo o usuário e outro o computador, onde terá 3 opções de jogadas;
 - Desafios do jogo:
     - Sortear a jogada do computador;
     - Verificar a jogada do usuário;
     - Verificar o ganhador;
     - Adicionar pontos ao ganhador;
     - Apresentar mensagem sobre o vencedor do jogo;
-- A pagina também deve ser responsiva e ter dois temas (Claro e escuro)
+- A pagina também deve ser responsiva e ter dois temas (Claro e escuro);
 
 
 ### Screenshot

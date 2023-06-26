@@ -1,0 +1,14 @@
+@media (max-width:800px) {
+    .container .jogo {
+        flex-direction: column;
+    }
+    .container .jogo .jogador {
+        width: 100%;
+    }
+    .container .jogo .jogador:last-child .informacoes {
+        flex-direction: row;
+    }
+    .container .jogo .vs{
+        padding: 20px;
+    }
+}

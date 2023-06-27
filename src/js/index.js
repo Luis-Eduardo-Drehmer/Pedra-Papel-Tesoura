@@ -63,7 +63,7 @@ let jogadaFeita = false;
 
 let nome = prompt("Digite seu nome.");
 
-if (nome !== "" || nome === null) { nomeJogador.innerHTML = nome; } else { nome = nomeJogador.innerHTML; }
+if (nome !== "" && nome !== null) { nomeJogador.innerHTML = nome; } else { nome = nomeJogador.innerHTML; }
 
 controleTema.forEach((icon, index) => {
     icon.addEventListener("click", () => {
